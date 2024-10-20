@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  display: flex;
+  width: 100%;
+  max-width: 606px;
+  margin-bottom: 20px;
+}
+.grid {
+  height: 606px;
+  width: 606px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.square {
+  height: 200px;
+  width: 200px;
+  border: solid black 1px;
+}
+.mole {
+  background-image: url("mole.jpg");
+  background-size: cover;
+}
